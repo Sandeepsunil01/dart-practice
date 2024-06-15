@@ -11,7 +11,7 @@ namesAndIndexes() async {
       host: 'localhost',
       port: 3306,
       user: 'root',
-      password: 'Sandeep@23',
+      password: 'password',
       db: 'school');
   var con = await MySqlConnection.connect(settings);
 
@@ -29,7 +29,7 @@ insertData() async {
       host: 'localhost',
       port: 3306,
       user: 'root',
-      password: 'Sandeep@23',
+      password: 'password',
       db: 'school');
   var con = await MySqlConnection.connect(settings);
 
@@ -44,7 +44,7 @@ Future selectingRows() async {
       host: 'localhost',
       port: 3306,
       user: 'root',
-      password: 'Sandeep@23',
+      password: 'password',
       db: 'school');
   var con = await MySqlConnection.connect(settings);
 
